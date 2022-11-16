@@ -1,0 +1,69 @@
+/* Main Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    background-color: #fafbfb;
+}
+
+header {
+    background-color: #303c48;
+    padding: 10px;
+}
+
+footer {
+    margin-bottom: 80px;
+    color:#a7b1b9
+}
+
+h1 {
+    color: #303c48;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+p {
+   color: #a7b1b9;
+   margin: 0px 50px;
+   font-size: 1.1em;
+}
+
+legend {
+    margin: 20px 0px 10px 0px;
+}
+
+fieldset {
+    
+    text-align: left;
+    color:#a7b1b9;
+}
+
+input {
+    width: 100%;
+    margin: 20px 0px;
+    background-color: #cfd4d8;
+    border-radius: 4px;
+    padding: 15px 0px;
+}
+
+
+/* Selector Styles */
+.title {
+    color: #fafbfb;
+}
+
+/* NOT SURE IF THIS ONE CODE for subtitle BELOW IS CORRECT (might need to change the class) */
+.subtitle p {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: red;
+}    
+
+input::placeholder {
+    color: #a7b1b9;
+    text-align: right;
+    margin-right: 20px;
+}
