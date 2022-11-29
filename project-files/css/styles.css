@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+textarea {
+    resize: none;
+    background-color: #cfd4d8;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -173,3 +178,26 @@ justify-content: flex-start;
 }
 
 /* Media Queries */
+
+@media screen and (min-width:768px) {
+    main {
+    max-width: 60vw;
+    margin: auto;
+    }
+
+    #subjects {
+        margin-top: 0px;
+        height: 150px;
+        width: 56vw;
+    }
+
+    .c1 {
+    display: flex;
+    }
+
+    label {
+       width: 100px;
+       margin-right: 20px; 
+    }
+ 
+}
