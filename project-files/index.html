@@ -31,30 +31,30 @@
                 
                         <div class="c1">
                         <div class="form-control"><label for="name">Full Name</label></div>
-                            <div class="form-control2"><input class="c1" type="text" id="name" name="user_name" placeholder="Required"></div>
+                            <div class="form-control2"><input class="c1" type="text" id="name" name="user_name" placeholder="Required" required></div>
                         </div>
                     
                         <div class="c1">
                             <div class="form-control"><label for="email">Email Address</label></div>
-                            <div class="form-control2"><input class="c1" type="text" id="email" name="user_email" placeholder="Required"></div>
+                            <div class="form-control2"><input class="c1" type="text" id="email" name="user_email" placeholder="Required" required></div>
                         </div>
                     
                     
                         <div class="c1">
                             <div class="form-control"><label for="tel">Phone Number</label></div>
-                            <div class="form-control2"><input class="c1" type="text" id="tel" name="user_phone#"></div>
+                            <div class="form-control2"><input class="c1" type="text" id="tel" name="user_phone#" placeholder="Phone"></div>
                         </div>
                     
                     
                         <div class="c1">
                             <div class="form-control"><label for="address">Street Address</label></div>
-                            <div class="form-control2"><input class="c1" type="text" id="address" name="user_address"></div>
+                            <div class="form-control2"><input class="c1" type="text" id="address" name="user_address" placeholder="Address 1"></div>
                         </div>
                     
                     
                         <div class="c1">
                             <div class="form-control"><label for="city">City</label></div>
-                            <div class="form-control2"><input class="c1" type="text" id="city" name="user_city"></div>
+                            <div class="form-control2"><input class="c1" type="text" id="city" name="user_city" placeholder="City"></div>
                         </div>
                     
                 
@@ -62,6 +62,7 @@
                             <div class="form-control"><label for="state">State</label></div>
                             
                             <select id="state" name="user_state">
+                                <option value="State" disabled selected hidden>State</option>
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
                                 <option value="AZ">Arizona</option>
@@ -119,7 +120,7 @@
                     
                         <div class="c1">
                             <div class="form-control"><label for="zip-code">Zip Code</label></div>
-                            <div class="form-control2"><input class="c1" type="text" id="zip-code" name="user_zip_code"></div>
+                            <div class="form-control2"><input class="c1" type="text" id="zip-code" name="user_zip_code" placeholder="Zip"></div>
                         </div>
 
                 
@@ -161,10 +162,10 @@
                 </div>
                 <div class="box3">
                     <div class="item6">    
-                        <div class="subtitle"><label for="subjects"><p>Other subjects you'd like to hear about</p></label>
+                        <div class="subtitle"><label for="subjects">Other subjects you'd like to hear about</label></div>
                     </div>
                     <div class="item7">
-                        <textarea id="subjects" name="user_input"></textarea>
+                        <textarea id="subjects" name="user_input" placeholder="We want to hear from you! <CLICK HERE> to give us your feedback!"></textarea>
                     </div>
                 </div>
 
