@@ -204,7 +204,6 @@ justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    /* background-color: blue; */
 }
 
 .item4,
@@ -215,7 +214,6 @@ justify-content: flex-start;
 .box3 {
     display: flex;
     flex-wrap: wrap;
-    /* background-color: green; */
     justify-content: center;
     align-content: center;
 }
