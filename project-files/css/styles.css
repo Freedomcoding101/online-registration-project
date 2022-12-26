@@ -16,7 +16,7 @@ ul {
 body {
     font-family: 'Merriweather', serif;
     text-align: center;
-    background-color: #fafbfb;
+    background-color: #d9f1f1;
     
 }
 
@@ -111,7 +111,6 @@ legend {
 label {
     min-width: 100px;
     width: 100vw;
-    margin-left: 10px;
     font-size: 1.1em;
     
 }
@@ -151,7 +150,6 @@ input::placeholder {
 #subjects {
     margin-top: 20px;
     height: 150px;
-    min-width: 325px;
     width: 100%;
     background-color: #e0ebf5;
     transition: background-color 1s, border .25s;
@@ -247,7 +245,8 @@ justify-content: flex-start;
     }
 
     #state {
-        min-width: 225px;
+        min-width: 234.94px;
+
     }
 
     label {
@@ -257,6 +256,9 @@ justify-content: flex-start;
     
     .c1 {
     align-items: center;
+
+    flex-wrap: nowrap;
+    
     }
 
     .form-control {
@@ -273,6 +275,10 @@ justify-content: flex-start;
 
     .line2 {
         width: 98%;
+    }
+
+    #zip-code {
+        width: 25%;
     }
 
 
